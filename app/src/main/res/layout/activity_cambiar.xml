@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chris.whatsapp2.Cambiar">
+
+    <LinearLayout
+        android:layout_width="568dp"
+        android:layout_height="222dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="282dp">
+
+        <EditText
+            android:id="@+id/nombrec"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.00"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="nombre"
+            tools:background="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/numeroc"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="0.00"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="numero"
+            tools:background="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/appendc"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="Agregar" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
